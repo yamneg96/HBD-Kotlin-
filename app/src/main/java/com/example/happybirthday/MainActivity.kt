@@ -69,7 +69,7 @@ fun GreetingImage(message: String, from: String, modifier: Modifier = Modifier){
     val image = painterResource(R.drawable.androidparty)
     Image(
         painter = image
-        contentDescription = null
+//        contentDescription = null
     )
 }
 
